@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>个人介绍</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 15%;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+
+    body {
+      margin: 0;
+      background-image: url(../picture/17.jpg);
+      background-size: 100% 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    td {
+      padding: 10px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+<ul style="text-align: center;background-color: #267F88FF">
+  <li><img src="../picture/12.jpg" style="margin:30px 0px 30px;width:55%;border-radius:50%;border:8px solid #210a42;">
+  </li>
+  <li><a href="homepage.html"><p style="font-size: 18px;color: white">主页</p></a></li>
+  <li><a href="#info"><p style="font-size: 18px;color: white">基本信息</p></a></li>
+  <li><a href="#resume"><p style="font-size: 18px;color: white">个人简介</p></a></li>
+  <li><a href="#skill"><p style="font-size: 18px;color: white">技能</p></a></li>
+  <li><a href="#dream"><p style="font-size: 18px;color: white">梦想</p></a></li>
+</ul>
+<div id="info" style="margin-left:15%;padding:1px 16px;">
+  <a href="javascript:history.back(-1)" style="text-decoration: none;"><p style="font-size: 22px;display: inline">
+    返回上一页</p></a>
+  <h1 style="text-align: center;">基本信息</h1>
+  <table style="width: 90%;">
+    <tr>
+      <td><p>性别：</p></td>
+      <td><p>年龄：</p></td>
+      <td><p>家乡：</td>
+    </tr>
+    <tr>
+      <td style="width: 350px"><p>博客：</p></td>
+      <td style="width: 250px"><p>邮箱：</p></td>
+      <td style="width: 150px"><p>专业：</p></td>
+    </tr>
+    <tr>
+      <td><p>高中：</p></td>
+      <td><p>大学：</p></td>
+      <td><p>学历：</p></td>
+    </tr>
+  </table>
+  <img src="../picture/19.jpg" style="margin-left: 200px;border-radius:50%;">
+</div>
+<div id="resume" style="margin-left:15%;">
+  <br/> <br/> <br/> <br/> <br/><br/><br/>
+  <h1 style="text-align: center;">个人简介</h1>
+  <div style="margin:0 15% 0 10% ">
+    <p style="padding: 20px">
+      &emsp;&emsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      <br/>
+      &emsp;&emsp;
+      <br/>
+      &emsp;&emsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      <br/>
+      &emsp;&emsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    </p>
+  </div>
+</div>
+<br/> <br/> <br/> <br/> <br/> <br/><br/>
+<div id="skill" style="margin-left:15%;">
+  <br/>
+  <h1 style="text-align: center;">技能</h1>
+  <div style="margin:0 15% 0 10%;">
+    <h3>课程内所学技能：</h3>
+    <a href="https://www.runoob.com/cplusplus/cpp-tutorial.html" target="_blank"><img src="../picture/3.jpg"
+                                                                                      style="border-radius:50%;width: 200px;height: 150px;margin-left: 50px"></a>
+    <a href="https://www.runoob.com/java/mysql-tutorial.html" target="_blank"><img src="../picture/mysql.jpg"
+                                                                                   style="border-radius:50%;width: 130px;height: 120px;margin-left: 80px"></a>
+    <a href="https://www.runoob.com/java/java-tutorial.html" target="_blank"><img src="../picture/java.jpg"
+                                                                                  style="border-radius:50%;width: 130px;height: 120px;margin-left: 130px"></a>
+    <br/><br/>
+    <p style="display: inline;margin-left: 120px">C++</p>
+    <p style="display: inline;margin-left: 200px">MySQL</p>
+    <p style="display: inline;margin-left: 215px">JAVA</p>
+    <br/><br/>
+    <h3>课外所学技能：</h3>
+    <a href="https://www.zhihu.com/tardis/zm/art/549784568?source_id=1005" target="_blank"><p
+      style="display: inline;margin-left: 110px">XXXXXXX</p></a>
+    <a href="https://blog.csdn.net/fantastic_sky/article/details/110229474" target="_blank"><p
+      style="display: inline;margin-left: 160px">XXXXXXX</p></a>
+    <a href="https://zhuanlan.zhihu.com/p/108050248" target="_blank"><p style="display: inline;margin-left: 158px">
+      ZigBee技术</p></a>
+  </div>
+</div>
+<div id="dream" style="margin-left:15%;">
+  <br/> <br/> <br/> <br/> <br/>
+  <h1 style="text-align: center;">梦想</h1>
+  <div style="margin:0 15% 0 5%;">
+    <p style="padding: 20px">
+      &emsp;&emsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      <br/>
+      &emsp;&emsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    </p>
+  </div>
+  <br/> <br/> <br/> <br/> <br/>
+</div>
+</body>
+</html>
